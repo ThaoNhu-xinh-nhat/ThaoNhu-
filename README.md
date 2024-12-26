@@ -1,5 +1,4 @@
-## *HTML-Hyper Text Markup Language:* Là ngôn ngữ đánh dấu siêu văn bản.
- HTML có tác dụng tạo bộ khung xương cho trang web.
+### *HTML-Hyper Text Markup Language:* Là ngôn ngữ đánh dấu siêu văn bản. HTML có tác dụng tạo bộ khung xương cho trang web.
  
 # Một chương trình cơ bản của HTML
 **Thường bao gồm:** các thành phần cốt lõi để hiển thị nội dung trên trình duyệt. Nó bao gồm cấu trúc trang HTML cơ bản, 
