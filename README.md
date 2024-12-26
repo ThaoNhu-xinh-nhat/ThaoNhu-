@@ -1,4 +1,4 @@
-*HTML-Hyper Text Markup Language:* Là ngôn ngữ đánh dấu siêu văn bản.
+###*HTML-Hyper Text Markup Language:* Là ngôn ngữ đánh dấu siêu văn bản.
  HTML có tác dụng tạo bộ khung xương cho trang web.
  
 # Một chương trình cơ bản của HTML
@@ -8,7 +8,7 @@ các thẻ để hiển thị văn bản, hình ảnh, liên kết, và khả n�
 
 ![Một cấu trúc của file HTML](./vd1.png)
 
-**Trong đó:**
+Trong đó:
  - `<!DOCTYPE html>` (document type: html): để khai báo cho trình duyệt biết đây là kiểu tài liệu HTML.
  - `<html>`: Thẻ html để khởi tạo khung trang web.
  - `<head>`: Chứa các thông tin chung của trang web.
@@ -26,4 +26,46 @@ Có thể liên kết nó bằng cách sử dụng thẻ <link> trong phần <he
   - `rel="stylesheet":` Xác định rằng đây là một tệp CSS.
   - `href="path/to/styles.css":` Đường dẫn đến tệp CSS (có thể là đường dẫn tương đối hoặc tuyệt đối). 
 
-![Ví dụ về cách link css](./vd-css.png)
+**VD minh họa:**
+
+```<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Chào mừng!</h1>
+    <p>Đây là một ví dụ về cách liên kết CSS.</p>
+</body>
+</html>```
+
+
+**Hoặc có thể sử dụng cách khác:**
+
+```<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập HTML</title>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    h1 {
+      color: #0066cc;
+    }
+</style>
+</head>
+<body>
+    <h1>Chào mừng!</h1>
+    <p>Đây là một ví dụ về cách liên kết CSS.</p>
+</body>
+</html>```
+
+ 
