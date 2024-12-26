@@ -19,7 +19,9 @@ các thẻ để hiển thị văn bản, hình ảnh, liên kết, và khả n�
 
 # Cách link js và css 
 Có thể liên kết nó bằng cách sử dụng thẻ <link> trong phần <head> của tệp HTML.
+
 **VD:** ```<link rel="stylesheet" href="path/to/styles.css">```
+
 **Trong đó:**
   - `rel="stylesheet":` Xác định rằng đây là một tệp CSS.
   - `href="path/to/styles.css":` Đường dẫn đến tệp CSS (có thể là đường dẫn tương đối hoặc tuyệt đối). 
