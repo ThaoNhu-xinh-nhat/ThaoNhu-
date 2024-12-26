@@ -27,7 +27,7 @@ Có thể liên kết nó bằng cách sử dụng thẻ <link> trong phần <he
 
 **VD minh họa:**
 
-`<!DOCTYPE html>
+```<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -39,12 +39,12 @@ Có thể liên kết nó bằng cách sử dụng thẻ <link> trong phần <he
     <h1>Chào mừng!</h1>
     <p>Đây là một ví dụ về cách liên kết CSS.</p>
 </body>
-</html>`
+</html>```
 
 
 **Hoặc có thể sử dụng cách khác:**
 
-`<!DOCTYPE html>
+```<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -65,6 +65,6 @@ Có thể liên kết nó bằng cách sử dụng thẻ <link> trong phần <he
     <h1>Chào mừng!</h1>
     <p>Đây là một ví dụ về cách liên kết CSS.</p>
 </body>
-</html>`
+</html>```
 
  
