@@ -70,7 +70,7 @@ Có thể liên kết nó bằng cách sử dụng thẻ `<link>` trong phần `
 </body>
 </html>
 ```
-# Cách link js
+# Cách link JavaScript
  Tệp JavaScript thường được sử dụng để thêm chức năng động cho trang web. Bạn có thể liên kết nó bằng cách sử dụng thẻ `<script>`.
 
  **VD:** ```<script src="path/to/script.js"></script>```
