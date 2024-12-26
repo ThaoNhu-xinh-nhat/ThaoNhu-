@@ -16,8 +16,8 @@ Trong đó:
 
 ![Ví dụ](./vd2.png)
 
-# Cách link js và css 
-Có thể liên kết nó bằng cách sử dụng thẻ <link> trong phần <head> của tệp HTML.
+# Cách link css 
+Có thể liên kết nó bằng cách sử dụng thẻ `<link>` trong phần `<head>` của tệp HTML.
 
 **VD:** ```<link rel="stylesheet" href="path/to/styles.css">```
 
@@ -27,7 +27,7 @@ Có thể liên kết nó bằng cách sử dụng thẻ <link> trong phần <he
 
 **VD minh họa:**
 
-```Javascript
+```css
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,7 +46,7 @@ Có thể liên kết nó bằng cách sử dụng thẻ <link> trong phần <he
 
 **Hoặc có thể sử dụng cách khác:**
 
-```javascript
+```css
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -70,3 +70,11 @@ Có thể liên kết nó bằng cách sử dụng thẻ <link> trong phần <he
 </body>
 </html>
 ```
+# Cách link js
+ Tệp JavaScript thường được sử dụng để thêm chức năng động cho trang web. Bạn có thể liên kết nó bằng cách sử dụng thẻ `<script>`.
+
+ **VD:** ```<script src="path/to/script.js"></script>```
+
+ **Trong đó:**
+  `src="path/to/script.js"`: Đường dẫn đến tệp JavaScript.
+
