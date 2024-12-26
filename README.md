@@ -95,3 +95,30 @@ Có thể liên kết nó bằng cách sử dụng thẻ `<link>` trong phần `
 </body>
 </html>
 ```
+**Hoặc có thể sử dụng cách khác:**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên kết JavaScript</title>
+</head>
+<body>
+    <h1 id="greeting">Hello!</h1>
+    <button id="changeTextBtn">Click Me</button>
+    <script>
+    
+      const button = document.getElementById('changeTextBtn');
+      const heading = document.getElementById('greeting');
+
+      button.addEventListener('click', () => {
+      heading.textContent = 'Chào mừng bạn!';
+      heading.style.color = 'blue';
+      });
+
+    </script>
+</body>
+</html>
+```
