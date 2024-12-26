@@ -14,8 +14,6 @@ Trong đó:
  - `<title>`: Nằm bên trong thẻ <head>, dùng để khai báo tiêu đề của trang  
  - `<body>`: Tất cả nội dung hiển thị trên website đều viết trong thẻ body
 
-![Ví dụ](./vd2.png)
-
 # Cách link css 
 Có thể liên kết nó bằng cách sử dụng thẻ `<link>` trong phần `<head>` của tệp HTML.
 
