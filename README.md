@@ -78,3 +78,20 @@ Có thể liên kết nó bằng cách sử dụng thẻ `<link>` trong phần `
  **Trong đó:**
   `src="path/to/script.js"`: Đường dẫn đến tệp JavaScript.
 
+**VD minh họa:**
+
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên kết JavaScript</title>
+</head>
+<body>
+    <h1 id="greeting">Hello!</h1>
+    <button id="changeTextBtn">Click Me</button>
+    <script src="script.js"></script>
+</body>
+</html>
+```
