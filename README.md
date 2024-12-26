@@ -109,7 +109,6 @@ Có thể liên kết nó bằng cách sử dụng thẻ `<link>` trong phần `
     <h1 id="greeting">Hello!</h1>
     <button id="changeTextBtn">Click Me</button>
     <script>
-    
       const button = document.getElementById('changeTextBtn');
       const heading = document.getElementById('greeting');
 
@@ -117,7 +116,6 @@ Có thể liên kết nó bằng cách sử dụng thẻ `<link>` trong phần `
       heading.textContent = 'Chào mừng bạn!';
       heading.style.color = 'blue';
       });
-
     </script>
 </body>
 </html>
